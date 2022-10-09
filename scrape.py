@@ -7,3 +7,5 @@ print(page)
 soup = BeautifulSoup(page.content,'html.parser')
 for name in soup.find_all('a',class_='s1Q9rs'):
     print(name.text)
+#basic web scrapper   
+    
